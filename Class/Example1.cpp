@@ -9,21 +9,19 @@ public:
     void getdata();
     void print();
 };
-
 void Example::getdata()
 {
-    cout << "Enter the data: ";
+    cout << "\nEnter the two numbers: ";
     cin >> a >> b;
 }
 void Example::print()
 {
-    cout << "The numbers are: " << a << " " << b << "\n";
+    cout << "The numbers are: " << a << " " << b;
 }
-
 int main()
 {
-    Example E1;
-    E1.getdata();
-    E1.print();
+    Example E;
+    E.getdata();
+    E.print();
     return 0;
 }

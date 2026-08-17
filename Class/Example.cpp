@@ -21,7 +21,7 @@ public:
 int main()
 {
     Example E;
-    // E.a = 100;
+    E.n = 10;
     E.getdata();
     E.print();
     return 0;
