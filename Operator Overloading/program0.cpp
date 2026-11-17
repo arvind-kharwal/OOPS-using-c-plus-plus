@@ -19,11 +19,16 @@ void Example::display()
 }
 Example Example::operator-()
 {
-    Example E1(0);
-    E1.a = -a;
+    Example E2(0);
+    E2.a = -a;
+    return (E2);
 }
 int main()
 {
     Example A(10);
     A.display();
+    Example B(0);
+    B = -A;
+    B.display();
+    return 0;
 }
